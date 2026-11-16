@@ -1,15 +1,12 @@
 # Crystal Reports Runtime docker image
 
-This repository contains files for building a Windows container image based
-on the Microsoft ASP.NET 4.8 image, containing the 'Crystal Reports for Visual
-Studio Runtime' and its dependencies.
+This Windows container image provides ASP.NET 4.8 with the SAP Crystal Reports
+for Visual Studio Runtime and fonts for report export.
 
 An already built image can be found on [Docker Hub](https://hub.docker.com/r/fretje/crystalreportsruntime).  
 Or pull it down with the following command:
 
     docker pull fretje/crystalreportsruntime:latest
-
-The image is based on Microsoft's ASP.NET 4.8 Windows Server Core image.
 
 ### Fonts
 
@@ -26,17 +23,9 @@ for how this can be done at startup for an ASP.NET MVC 5 Web Application.
 
 ### Versions
 
-* Windows Server Core: **2019ltsc** (1809 Build 17763)
+* Windows Server Core: **2019 LTSC (version 1809)**
 * ASP.NET: **4.8**
 * Crystal Reports for Visual Studio Runtime: **13.0.40**
-
-### Building
-
-From the repository root, build the image with:
-
-```shell
-docker build --pull --rm -t fretje/crystalreportsruntime:latest .
-```
 
 ### License and third-party software
 
