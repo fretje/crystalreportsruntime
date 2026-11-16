@@ -1,4 +1,4 @@
-# crystalreportsruntime docker image
+# Crystal Reports Runtime docker image
 
 This repository contains files for building a Windows container image based
 on the Microsoft ASP.NET 4.8 image, containing the 'Crystal Reports for Visual
