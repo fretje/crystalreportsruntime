@@ -3,8 +3,10 @@
 This Windows container image provides ASP.NET 4.8 with the SAP Crystal Reports
 for Visual Studio Runtime and fonts for report export.
 
-An already built image can be found on [Docker Hub](https://hub.docker.com/r/fretje/crystalreportsruntime).  
-Or pull it down with the following command:
+The git repository is on [GitHub](https://github.com/fretje/crystalreportsruntime).  
+The built image is on [Docker Hub](https://hub.docker.com/r/fretje/crystalreportsruntime).  
+
+Pull the image with the following command:
 
     docker pull fretje/crystalreportsruntime:latest
 
