@@ -11,7 +11,4 @@ used to build or run the container.
 | Microsoft Visual C++ Redistributable | Downloaded and installed by the Dockerfile | Governed by Microsoft's applicable terms. |
 | FontReg | Downloaded from [jason-jxc/FontReg](https://github.com/jason-jxc/FontReg) during the Docker build and used to register fonts | The upstream repository does not expose a recognized license, so its terms are unconfirmed. It is not covered by this project's MIT license. |
 
-The Crystal Reports MSI is excluded from Git by `.gitignore`; the Dockerfile
-downloads it during the build. Container image publishers are responsible for
-ensuring that they are permitted to redistribute all components in their
-images. This project is not affiliated with or endorsed by SAP or Microsoft.
+This project is not affiliated with or endorsed by SAP or Microsoft.
